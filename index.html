@@ -10,35 +10,23 @@
 </script> -->
 <meta charset="UTF-8">
 <title>サンプル1</title>
-<link href="toppage.css" rel="stylesheet" type="text/css">
+<link href="dist/css/toppage.css" rel="stylesheet" type="text/css">
 <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
 <!--<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1/jquery.easing.min.js"></script>-->
 <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
-<script>
-$(function(){
-	$.scrollify({section:".box"});
-	console.log('in');
-	$(window).on('resize',function(){
-		$.scrollify.update();
-		console.log('in');
-	});
-	
-});
-</script>
+<script type="text/javascript" src="js/index.js"></script>
+
 </head>
 
 <body>
-	<div class="box box1">
-		<h2>box1</h2>
+	<div class="box box1" id="test1">
 	</div><!--box-->
-	<div class="box box2">
-		<h2>box2</h2>
+
+	<div class="box box2" id="test2">
 	</div><!--box-->
-	<div class="box box3">
-		<h2>box3</h2>
+
+	<div class="box box3" id="test3">
 	</div><!--box-->
-	<div class="box box4">
-		<h2>box4</h2>
-	</div><!--box-->
+
 </body>
 </html>

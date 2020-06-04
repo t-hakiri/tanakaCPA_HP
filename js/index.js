@@ -1,20 +1,12 @@
-console.log('aaaaaaaaaaaaaa')
-
 $(function(){
-  $("#toppage").load("toppage.html");
-  $("#footer").load("footer.html");
-  $("#header").load("header.html");
-});
+  $("#test1").load("toppage.html");
+  $("#test2").load("header.html");
+  $("#test3").load("footer.html");
 
-var option = {
-    section : '.js-section',
-    easing: "swing",
-    scrollSpeed: 600,
-    scrollbars: true,
-  };
-
-$(function() {
-	console.log('in')
-	$.scrollify(option);
-	console.log('out')
+	$.scrollify({section:".box"});
+	$(window).on('resize',function(){
+		$.scrollify.update();
+	});
+    // $(".box2").load("footer.html");
+  // $(".box3").load("header.html");
 });
