@@ -1,37 +1,44 @@
 <!doctype html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>たなか公認会計士・税理士事務所</title>
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Bootstrap core css -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- MDBootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+<html>
+<head>
+<!-- <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <link rel="stylesheet" href="dist/css/toppage.css">
+  gtag('config', 'UA-101406887-1');
+</script> -->
+<meta charset="UTF-8">
+<title>サンプル1</title>
+<link href="toppage.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1/jquery.easing.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
+<script>
+$(function(){
+	$.scrollify({section:".box"});
+	console.log('in');
+	$(window).on('resize',function(){
+		$.scrollify.update();
+		console.log('in');
+	});
+	
+});
+</script>
+</head>
 
-    <script type="text/javascript" src="js/index.js"></script>
-  </head>
-  <body>
-    <header id="header"></header>
-
-
-    <div id="toppage"></div>
-    <footer id="footer"></footer>
-
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
-    <!-- scrollify -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
-  </body>
+<body>
+	<div class="box box1">
+		<h2>box1</h2>
+	</div><!--box-->
+	<div class="box box2">
+		<h2>box2</h2>
+	</div><!--box-->
+	<div class="box box3">
+		<h2>box3</h2>
+	</div><!--box-->
+	<div class="box box4">
+		<h2>box4</h2>
+	</div><!--box-->
+</body>
 </html>

@@ -1,39 +1,26 @@
-// ===========================
-// section
-// ------------------------------
-.section {
-  width: 100%;
-}
-.section-content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 40px 60px;
-  text-align: center;
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-h2 {
-  color: #232323;
-  &:first-child {
-    margin-top: 0;
-  }
+.box{
+	color: #fff;
+	padding: 40px;
 }
 
-h3 {
-  color: #232323;
+.box1{
+	background: #F43959;
 }
 
-p {
-  color: #232323;
+.box2{
+	background: #4CA4CF;
 }
 
-.section-red {
-  background-color: #ff6363;
+.box3{
+	background: #e5cf54;
 }
 
-.section-blue {
-  background-color: #8fbbff;
-}
-
-.section-green {
-  background-color: #fff;
+.box4{
+	background: #45CB99;
 }
