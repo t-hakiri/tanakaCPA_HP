@@ -12,7 +12,8 @@ $(function () {
   $.scrollify({
     section: ".box",
     interstitialSection: "footer",
-    setHeights: false,
+		setHeights: false,
+		scrollSpeed: 650, // スクロール時の速度
     scrollbars: false,
     before: function (i, box) {
       current = i;
