@@ -7,38 +7,7 @@ $(function () {
   $("#section5").load("business.html");
   $("#section6").load("company_profile.html");
   $("#footer").load("footer.html");
-  // var current;
-  // $.scrollify({
-  //   section: ".box",
-  //   interstitialSection: "footer",
-  //   setHeights: false,
-  //   scrollbars: false,
-  //   before: function (i, box) {
-  //     current = i;
-  //     $(".pagenation .active").removeClass("active");
-  //     $(".pagenation .active").find("a").eq(i).addClass("active");
-  //   },
-  //   afterRender: function () {
-  //     var pagenation = '<ul class="pagenation">';
-  //     $(".box").each(function (i) {
-  //       pagenation += "<li><a></a></li>";
-  //     });
-  //     pagenation += "</ul>";
-  //     $("body").append(pagenation);
-  //     $(".pagenation a").each(function (i) {
-  //       $(this).on("click", function () {
-  //         $.scrollify.move(i);
-  //       });
-  //     });
-  //     $(".pagenation li:first-chiled").find("a").addClass("active");
-  //   },
-  // });
-  // $("window").on("resize", function () {
-  //   if (current) {
-  //     var currentScrl = $(".box").eq(current).offset().top;
-  //     $(window).scrollTop(currentScrl);
-  //   }
-  // });
+
   var current;
   $.scrollify({
     section: ".box",
