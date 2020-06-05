@@ -1,2 +1,1 @@
-.header{height:50px;position:fixed;top:0;background-color:black;color:white}.footer{height:100px}
-/*# sourceMappingURL=style.css.map */
+.wrap{position:relative}.header{height:50px;position:fixed;top:0;background-color:black;color:white;z-index:999}.footer{height:100px}
