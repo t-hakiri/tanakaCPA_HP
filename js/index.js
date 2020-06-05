@@ -1,12 +1,10 @@
 $(function(){
-  $("#test1").load("toppage.html");
-  $("#test2").load("header.html");
-  $("#test3").load("footer.html");
+  $("#section1").load("section1.html");
+  $("#section2").load("section2.html");
+  $("#section3").load("section3.html");
+  $("#nav").load("nandemo.html");
+  $("#footer").load("nandemo2.html");
 
-	$.scrollify({section:".box"});
-	$(window).on('resize',function(){
-		$.scrollify.update();
-	});
-    // $(".box2").load("footer.html");
-  // $(".box3").load("header.html");
+  $.scrollify({section:".box"});
 });
+
