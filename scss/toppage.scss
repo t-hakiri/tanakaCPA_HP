@@ -47,9 +47,10 @@
 .pagenation a{
 	display: block;
 	height: 10px;
-	border: 1px solid #000;
+  border: 1px solid #000;
+  border-radius: 1rem;
 	width: 10px;
 }
 .pagenation a.active{
-	background: #000;
+	background: rgb(121, 18, 218);
 }
