@@ -33,3 +33,23 @@
 .box6{
 	background: rgb(27, 76, 152);
 }
+
+.pagenation{
+	padding: 20px;
+	position: fixed;
+	right: 0;
+	top: 50%;
+}
+.pagenation li{
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+.pagenation a{
+	display: block;
+	height: 10px;
+	border: 1px solid #000;
+	width: 10px;
+}
+.pagenation a.active{
+	background: #000;
+}
