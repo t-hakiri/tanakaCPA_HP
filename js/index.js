@@ -8,6 +8,5 @@ $(function(){
 	$("#section6").load("company_profile.html");
   $("#footer").load("footer.html");
 
-  $.scrollify({section:".box"});
+  $.scrollify({ section: ".box", interstitialSection: "footer" });
 });
-
