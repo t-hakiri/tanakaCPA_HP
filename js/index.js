@@ -6,14 +6,13 @@ $(function () {
   $("#section4").load("support_for_venture_companies.html");
   $("#section5").load("business.html");
   $("#section6").load("company_profile.html");
-  $("#footer").load("footer.html");
 
   var current;
   $.scrollify({
     section: ".box",
-    interstitialSection: "footer",
+    // interstitialSection: "footer",
     setHeights: false,
-    scrollbars: false,
+    scrollbars: true,
     before: function (i, box) {
       current = i;
       $(".pagenation .active").removeClass("active");
